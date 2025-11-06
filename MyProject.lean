@@ -1,0 +1,5 @@
+-- Root module for MyProject
+-- Add imports here later, e.g.:
+-- import MyProject.LinearMap_proof
+-- import MyProject.Inverse_Linear_Map
+-- etc.
