@@ -27,7 +27,7 @@ def inverse_map (f : V →ₗ[K] V) (h : Bijective f) : V →ₗ[K] V :=
     have h₁ : v₁ + v₂ = q (w₁ + w₂) := by
       have h₃ : p (v₁ + v₂) = p (v₁) + p (v₂) := by
         exact f.map_add' v₁ v₂
-      sorry
+      rw [ ] at h₃
     sorry
     ,
   map_smul' := sorry
