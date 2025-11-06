@@ -35,7 +35,6 @@ def inverse_map (f : V →ₗ[K] V) (h : Bijective f) : V →ₗ[K] V :=
       calc
         v₁ + v₂ = q (p (v₁ + v₂)) := (leftInverse_invFun h.injective (v₁ + v₂)).symm
         _ = q (w₁ + w₂) := by rw[h₃]
-    change invFun f.toFun (w₁ + w₂) = invFun f.toFun w₁ + invFun f.toFun w₂
     rw[h₁]
 
 
